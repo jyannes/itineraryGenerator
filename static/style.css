@@ -1,0 +1,82 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-weight: bold;
+}
+
+.generated-itinerary {
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+li {
+    margin-bottom: 10px;
+  }
+
+  
+pre {
+    margin: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
